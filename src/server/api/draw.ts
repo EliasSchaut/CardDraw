@@ -41,7 +41,7 @@ const card_values: string[] = [
   'Der Spieler, der am längsten in diesem Raum ist, trinkt',
   'Alle, die in den letzten 7 Tagen mehr als 50 Euro ausgegeben haben, trinken',
   'Der Spieler, der am längsten in der Sonne war, trinkt',
-  'Alle, die jemals auf einem Festival campiert haben, trinken',
+  'Alle, die jemals auf einem Festival gezeltet haben, trinken',
   'Der Spieler, der am längsten wach war, trinkt',
   'Der Spieler, der am meisten Länder besucht hat, trinkt',
   'Der Spieler, der am meisten Sportarten ausübt, trinkt',
@@ -49,6 +49,12 @@ const card_values: string[] = [
   'Alle trinken, die in den letzten 24 Stunden Kaffee getrunken haben',
   'Alle, die einen Hut tragen, trinken',
   'Der Spieler mit dem höchsten Studienabschluss trinkt',
+  'Alle, die Geschwister haben, trinken',
+  // intim version
+  'Alle, die heute schon sexuell aktiv waren, trinken',
+  'Der Spieler, der am meisten Sexpartner hatte, trinkt',
+  'Alle, die einen Kink haben, trinken',
+  'Alle, die schonmal mit jemanden aus der Runde Sex hatten, müssen trinken',
 
   'Deine Nachbarn müssen trinken',
   'Dein Nachfolger muss trinken',
@@ -57,8 +63,16 @@ const card_values: string[] = [
   'Dies ist ein Anti-Joker. Wenn du das nächste Mal nicht trinken musst, musst du stattdessen zwei Mal trinken',
   'Dies ist ein Joker. Wenn du das nächste Mal nicht trinken musst, musst du stattdessen nichts trinken',
   'Dein bester Freund in der Runde muss trinken',
+  'Wer deinen Zweitnamen als erstes errät, darf jemanden bestimmen, der trinken muss',
   'Wen du zuletzt in der Runde umarmt hast, muss trinken',
+  'Wer Gastgeber spielt, muss trinken',
+  'Wähle die Person mit dem höchsten Alkoholpegel. Diese Person muss trinken',
+  'Wähle die Person, die dir den nächsten Drink mischen darfst. Das ist Bestrafung genug, du musst nicht trinken',
+  //intim version
   'Wen du zuletzt in der Runde geküsst hast, muss trinken. Fall niemanden, musst du trinken',
+  'Wenn du die Unterwäschenfarbe deines Gegenüber errätst, muss er trinken, sonst du',
+  'Wähle die attraktivste Person in der Runde. Diese Person muss trinken',
+  'Wähle die Person, mit der du am ehesten schlafen würdest. Diese Person muss trinken',
 
   'Du darfst bis du das nächste Mal ziehst nicht mehr mit jemandem Blickkontakt aufnehmen, sonst musst du trinken',
   'Du darfst bis du das nächste Mal ziehst nicht mehr mit jemandem sprechen, sonst musst du trinken',
@@ -69,6 +83,11 @@ const card_values: string[] = [
   'Du darfst bis du das nächste Mal ziehst nicht mehr auf dein Handy schauen, sonst musst du trinken',
   'Du darfst bis du das nächste Mal ziehst nicht mehr blinzeln, sonst musst du trinken',
   'Du darfst bis du das nächste Mal ziehst nicht mehr den Boden berühren, sonst musst du trinken',
+  //intim version
+  'Du musst bis zum nächsten Zug mit französischem Akzent reden, scheiterst du, musst du trinken',
+  'Du musst bis zum nächsten Zug auf dem Schoss deines linken Nachbars sitzen, hältst du es nicht aus, musst du trinken',
+  'Du darfst ein Kleidungsstück loswerden oder trinken',
+  'Du darfst deinem rechten Nachbar eine Fußmassage geben oder trinken',
 
   'Diskutiert, wer am meisten Geld für unnötige Dinge ausgegeben hat. Diese Person muss trinken',
   'Diskutiert, wer am meisten Geld schuldet. Diese Person muss trinken',
@@ -78,5 +97,13 @@ const card_values: string[] = [
   'Diskutiert, wer die beste Playlist erstellen kann. Diese Person muss trinken',
   'Diskutiert, wer die beste Allgemeinbildung hat. Diese Person muss trinken',
   'Diskutiert, wer die beeindruckendsten Survival-Skills hat. Diese Person muss trinken',
+  //intim version
+  'Diskutiert, wer eine Woche lang am ehesten ohne Duschen/Waschen auskommt, die Person muss trinken',
+  'Diskutiert, wer am längsten ohne Masturbieren auskommt, die Person muss trinken',
+  'Diskutiert, wer am ehesten einen Dreier haben wird, die Person muss trinken',
+  'Diskutiert, wer am ehesten einen One-Night-Stand haben wird, die Person muss trinken',
+  'Diskutiert, wer die größten Brüste hat, die Person muss trinken',
+  'Diskutiert, wer den größten Penis hat, die Person muss trinken',
+  'Diskutiert, wer am ehesten eine Affäre anfangen würde, die Person muss trinken',
 ];
 let current_card_values: string[] = card_values;
