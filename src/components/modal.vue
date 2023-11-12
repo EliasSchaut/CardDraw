@@ -11,7 +11,7 @@
         leave-to="opacity-0"
       >
         <div
-          class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
+          class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity dark:bg-gray-800 dark:bg-opacity-75"
         />
       </TransitionChild>
 
@@ -29,17 +29,17 @@
             leave-to="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
           >
             <DialogPanel
-              class="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm sm:p-6"
+              class="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm sm:p-6 dark:bg-gray-800"
             >
               <div>
                 <div class="mt-3 text-center sm:mt-5">
                   <DialogTitle
                     as="h3"
-                    class="text-base font-semibold leading-6 text-gray-900"
+                    class="text-xl font-semibold leading-6 text-gray-900 dark:text-white"
                     >Lies vor und führe aus:</DialogTitle
                   >
                   <div class="mt-2">
-                    <p class="text-sm text-gray-500">
+                    <p class="text-gray-500 dark:text-gray-100">
                       {{ value }}
                     </p>
                   </div>
@@ -64,7 +64,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { XMarkIcon } from '@heroicons/vue/24/outline';
+
 import {
   Dialog,
   DialogPanel,
@@ -81,7 +81,6 @@ export default defineComponent({
     DialogTitle,
     TransitionChild,
     TransitionRoot,
-    XMarkIcon,
   },
   setup() {
     return {

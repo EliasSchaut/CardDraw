@@ -9,7 +9,6 @@ export default defineEventHandler(() => {
   } else {
     current_prompts = prompt.rest;
   }
-  console.log(prompts.length, current_prompts.length, prompt.value);
   return prompt.value;
 });
 
